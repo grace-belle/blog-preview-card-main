@@ -10,21 +10,65 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    root {
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    body { 
+      background-color: #F4D04E; 
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+    
+
+    .card {
+      background-color:white;
+      width: 350px;
+      border-radius: 10px;
+      padding: 20px;
+      justify-content: center;
+    }
+
+    .card_image {
+      display: flex;
+      justify-content: center;
+    }
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; align-items: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
-  Learning
+  <div class="card">
+    <div class = card_image>
+      <img src = "./assets/images/illustration-article.svg" alt = "illustration article">
+    </div>
+    <br>
+    <div class="card_category">
+      Learning
+    </div>
+    <div class="card_date">
+      Published 21 Dec 2023
+    </div>
+    <div class="card_title">
+      HTML & CSS foundations
+    </div>
+    <div class="card_description">
+      These languages are the backbone of every website, defining structure, content, and presentation.
+    </div>
+    <div class="card_author">
+      <img src = "./assets/images/image-avatar.webp" alt = "Greg Hooper">
+      <span>Greg Hooper</span>
+    </div>
+  </div>
 
-  Published 21 Dec 2023
 
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

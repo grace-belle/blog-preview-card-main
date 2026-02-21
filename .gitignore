@@ -14,3 +14,9 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+CLAUDE.md:Zone.Identifier
+AGENTS.md:Zone.Identifier
+CLAUDE.mdZone.Identifier
+design/mobile-design.jpg:Zone.Identifier
+design/desktop-design.jpg:Zone.Identifier
+preview.jpg:Zone.Identifier

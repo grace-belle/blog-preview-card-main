@@ -5,30 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com" rel="stylesheet">
+
   <title>Frontend Mentor | Blog preview card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     root {
-      font-family: 'Inter', sans-serif;
       display: flex;
       justify-content: center;
     }
+
     body { 
       background-color: #F4D04E; 
       justify-content: center;
       display: flex;
       align-items: center;
     }
-    
 
     .card {
       background-color:white;
+      font-family: 'Figtree', sans-serif;
       width: 350px;
       border-radius: 10px;
       padding: 20px;
       justify-content: center;
+    }
+
+    .card_category {
+      background-color: #F4D04E;
+      font-weight: 700;
     }
 
     .card_image {
@@ -36,8 +42,10 @@
       justify-content: center;
     }
 
-
-
+    .card_author {
+      font-weight: 700;
+      
+    }
 
     .attribution { font-size: 11px; text-align: center; align-items: center; }
     .attribution a { color: hsl(228, 45%, 44%); }

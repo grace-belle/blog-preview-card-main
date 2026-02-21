@@ -24,17 +24,24 @@
     }
 
     .card {
+      position: absolute;
+      top: 25%;
       background-color:white;
       font-family: 'Figtree', sans-serif;
       width: 350px;
       border-radius: 10px;
       padding: 20px;
       justify-content: center;
+      border: 1px solid black;
+      box-shadow: 10px 10px 0px black;
     }
 
     .card_category {
+      display: inline-block;
       background-color: #F4D04E;
+      border-radius: 10px;
       font-weight: 700;
+      padding: 5px 10px;
     }
 
     .card_image {
@@ -46,7 +53,12 @@
       font-weight: 700;
       
     }
-
+    .bottom {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform:translate(-50%,50%)
+    }
     .attribution { font-size: 11px; text-align: center; align-items: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
@@ -77,10 +89,11 @@
   </div>
 
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class = "bottom">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Grace</a>.
+    </div>
   </div>
 </body>
 </html>
